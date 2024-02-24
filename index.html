@@ -12,8 +12,8 @@
   <body>
     <div class="pluseweather">
     <header>
-      <form class="userform">
-        <input type="search" placeholder="Enter a city.." required class="userinput"/>
+      <form class="userform" id="usersearch">
+        <input type="search" placeholder="Enter a city.." required class="userinput" id="usersearchinput"/>
         <input type="submit" value="Search" class="usersearch"/>
       </form>
     </header>
@@ -21,7 +21,7 @@
 
       <div class="info">
       <div>
-        <h1 class="name">Paris</h1>
+        <h1 class="name" id="city">Paris</h1>
         <p class="detail">
           Tuesday 14:49, scattered clouds
           <br />
@@ -49,5 +49,6 @@
       >
     </footer>
 </div>
+<script src="src/index.js"></script>
   </body>
 </html>
