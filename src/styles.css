@@ -1,6 +1,6 @@
 body {
-    background-color: #f9f7fe;
-    font-family: "Roboto", sans-serif;
+  background-color: #f9f7fe;
+  font-family: "Roboto", sans-serif;
   }
   
   a {
@@ -8,7 +8,7 @@ body {
   }
   
   .pluseweather {
-    background: white;
+    background:white;
     max-width: 600px;
     margin: 45px auto;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
@@ -42,6 +42,7 @@ body {
   
   main {
     padding: 30px 0;
+   
   }
   
   .info {
